@@ -12,7 +12,7 @@ let look= new RegExp(part, "ig");
 
 let range = -1;
 do{
-    range = Number(prompt("Enter the range to go back for more tolerance, if you're note sure, put 0", ""));
+    range = Number(prompt("Enter the index to go back for more tolerance, if you're note sure, put 0", ""));
 }while(range < 0);
 
 let portion = -1;
